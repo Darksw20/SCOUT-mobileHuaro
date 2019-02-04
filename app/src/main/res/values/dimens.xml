@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_min">50dp</dimen>
+    <dimen name="edit_min">50dp</dimen>
+    <dimen name="marg_min">30dp</dimen>
+    <dimen name="marg_bottom_min">20dp</dimen>
+    <dimen name="safe_marg">75dp</dimen>
+</resources>

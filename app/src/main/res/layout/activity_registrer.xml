@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ricardo.huaroapp.registrer">
+
+    <ImageView
+        android:id="@+id/imgFondo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="hola"
+        android:background="@drawable/menuimg03"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/marg_min"
+                    android:background="@drawable/guiaestilos08" />
+
+                <EditText
+                    android:id="@+id/ingcum"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_min"
+                    android:layout_margin="@dimen/marg_min"
+                    android:hint="@string/Cum"
+                    android:inputType="textCapCharacters"
+                    android:textColor="@color/blanco"
+                    android:textColorHint="@color/blanco" />
+
+                <EditText
+                    android:id="@+id/ingnomb"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_min"
+                    android:layout_margin="@dimen/marg_min"
+                    android:hint="@string/nom"
+                    android:inputType="textCapCharacters"
+                    android:textColor="@color/blanco" />
+
+                <EditText
+                    android:id="@+id/ingap"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_min"
+                    android:layout_margin="@dimen/marg_min"
+                    android:hint="@string/A_pat"
+                    android:inputType="textCapCharacters"
+                    android:textColor="@color/blanco" />
+
+                <EditText
+                    android:id="@+id/ingam"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_min"
+                    android:layout_margin="@dimen/marg_min"
+                    android:hint="@string/A_mat"
+                    android:inputType="textCapCharacters"
+                    android:textColor="@color/blanco" />
+
+                <EditText
+                    android:id="@+id/contraseña"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_min"
+                    android:layout_margin="@dimen/marg_min"
+                    android:hint="@string/Contra"
+                    android:inputType="textPassword"
+                    android:textColor="@color/blanco" />
+
+                <EditText
+                    android:id="@+id/confi"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_min"
+                    android:layout_margin="@dimen/marg_min"
+                    android:hint="@string/Confcontra"
+                    android:inputType="textPassword"
+                    android:textColor="@color/blanco" />
+
+                <EditText
+                    android:id="@+id/fecha_na"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_min"
+                    android:layout_margin="@dimen/marg_min"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:maxLines="1"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:hint="@string/dat"
+                    android:onClick="entrar"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/masc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/edit_min"
+                        android:text="@string/Masc"
+                        android:textColor="@color/blanco"
+                        android:onClick="onRadioButtonClicked"/>
+
+                    <RadioButton
+                        android:id="@+id/fem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/edit_min"
+                        android:text="@string/Fem"
+                        android:textColor="@color/blanco"
+                        android:onClick="onRadioButtonClicked"/>
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/gscot"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_min"
+                    android:layout_margin="@dimen/marg_min"
+                    android:hint="@string/Grupo"
+                    android:inputType="number"
+                    android:textColor="@color/blanco" />
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/regis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="end"
+                        android:layout_marginBottom="@dimen/marg_bottom_min"
+                        android:layout_marginEnd="@dimen/marg_min"
+                        android:text="@string/regi"
+                        android:onClick="registrar"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

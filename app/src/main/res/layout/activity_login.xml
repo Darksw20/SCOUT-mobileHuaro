@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background2"
+    tools:context="com.example.ricardo.huaroapp.loginActivity">
+
+    <ImageView
+        android:id="@+id/imgFondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menuimg03" />
+
+
+    <EditText
+        android:id="@+id/contra"
+        android:layout_width="239dp"
+        android:inputType="textPassword"
+        android:layout_height="44dp"
+        android:hint="@string/Contra"
+        android:textColor="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="284dp"
+        android:layout_height="83dp"
+
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgFondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgFondo"
+        app:layout_constraintTop_toTopOf="@+id/imgFondo"
+        app:srcCompat="@drawable/guiaestilos08" />
+
+    <Button
+        android:id="@+id/IS"
+        android:layout_width="250dp"
+        android:layout_height="51dp"
+        android:background="@drawable/swaps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgFondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgFondo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606"
+        android:onClick="iniSesion"/>
+
+    <EditText
+        android:id="@+id/cum"
+        android:layout_width="239dp"
+        android:layout_height="45dp"
+        android:hint="@string/Cum"
+        android:inputType="textPersonName"
+        android:textColor="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <Button
+        android:id="@+id/R"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:background="@drawable/swapa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgFondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgFondo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965"
+        android:onClick="registro"/>
+
+    <Button
+        android:id="@+id/II"
+        android:layout_width="251dp"
+        android:layout_height="52dp"
+        android:background="@drawable/swapi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgFondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgFondo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751"
+        android:onClick="iniInvitado"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NEWE"
+        android:textColor="@color/hintcolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Huaro</string>
+    <string name="Cum">CUM</string>
+    <string name="Contra">Contraseña</string>
+    <string name="NEWE">¿Eres nuevo? ¡Registrate aqui!</string>
+    <string name="nom">Nombre</string>
+    <string name="A_pat">Apellido Paterno</string>
+    <string name="A_mat">Apellido Materno</string>
+    <string name="Confcontra">Confirmar Contraseña</string>
+    <string name="Grupo">Grupo</string>
+    <string name="Masc">Masculino</string>
+    <string name="Fem">Femenino</string>
+    <string name="dat">fecha nacimiento  (yyyy-mm-dd)</string>
+    <string name="regi">Registrar</string>
+    <string name="Esc">Escribe...</string>
+    <string name="titi">Titulo...</string>
+    <string name="Edit">Editar</string>
+    <string name="Del">Borrar</string>
+</resources>
